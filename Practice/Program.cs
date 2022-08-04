@@ -26,7 +26,9 @@ public class HelloWorld
         else
             Console.WriteLine("Your answer is" + "" + num1 / num2);
         
+        Thread.Sleep(2000);
 
+        Console.Clear();
 
     }
 }

@@ -12,6 +12,7 @@ public class HelloWorld
 
         Console.WriteLine("Input the first  number:");
         num1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Input the operator:");
         sign = Convert.ToChar(Console.ReadLine());
         Console.WriteLine("Input the second  number:");
         num2 = Convert.ToInt32(Console.ReadLine());

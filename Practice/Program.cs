@@ -4,9 +4,47 @@ using System;
 
 public class HelloWorld
 {
+   
+
     public static void Main(string[] args)
     {
-        int num1;
+        int firstNumber;
+        int secondNumber;
+        
+
+        Console.WriteLine("Enter the first number");
+       firstNumber = int.Parse( Console.ReadLine());
+        Console.WriteLine("Enter the second number");
+        secondNumber = int.Parse(Console.ReadLine());
+         Console.WriteLine("Your prime numbers are:");
+
+       for (int result = firstNumber; result < secondNumber; result++)
+        {  if (result % 2 == 0 || result % 3 == 0)
+            {
+                continue;
+            }
+        Console.WriteLine(result);
+            {
+               
+            }
+        
+            }
+           
+
+        }
+       
+    
+        //
+        
+            
+
+                
+
+
+
+
+
+        /* int num1;
         int num2;
         string sign;
 
@@ -30,6 +68,6 @@ public class HelloWorld
         Thread.Sleep(2000);
 
         Console.Clear();
-
+        */
     }
-}
+
